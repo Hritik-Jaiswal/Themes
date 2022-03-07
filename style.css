@@ -18,7 +18,7 @@ ul, li{
     list-style: none;
 }
 a{
-    color: inherit;
+    color: var(--text);
 }
 .light{
     --bg: #FFF7F8;
@@ -82,6 +82,14 @@ header div{
     transform: translateX(-31%);
 
     transition: opacity .5s ease-out;
+}
+@media (max-width:540px) {
+    .dropdown{
+        flex-direction: column;
+        width: 50%;
+        height: 125px;
+        left: 180px;
+    }
 }
 .has-dropdown:focus-within .dropdown{
     opacity: 1;
