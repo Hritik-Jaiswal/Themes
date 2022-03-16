@@ -81,7 +81,7 @@ header div{
     box-shadow: 0px .175rem .5rem rgba(2, 8, 20, .1);
     transform: translateX(-31%);
 
-    transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out, color 1s ease-out .3s;
 }
 @media (max-width:540px) {
     .dropdown{
